@@ -1,0 +1,41 @@
+/* --- ADVANTAGE --- */
+
+
+.advantage__icon {
+    height: 120px;
+    background-color: var(--second-backgraund-color);
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantage__title {
+    @include font(14px , 1.14 , null, 0.03em);
+    // font-size: inherit;
+    // line-height: 1.14;
+    // letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.advantage__list,
+.work-list,
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.advantage__text {
+    @include font(null, 1.71, null, 0.03em);
+    // line-height: 1.71;
+    // letter-spacing: 0.03em;
+    color: var(--primary-text);
+}
+
+
+.advantage__item {
+    width: calc((100% - 90px) / 4);
+}
